@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+body {
+  	padding-top: 70px;
+  	padding-bottom: 30px;
+}
+
+.label {
+	float: left;
+	width: 120px;
+}
+
+.error {
+	color: red;
+	padding-left: 10px;
+}
+
+.insert_writer, .insert_password, .insert_title {
+	width: 950px;
+}
+
+.insert_context {
+	width: 1250px;
+	height: 650px;	
+}
+
+div {
+	padding: 5px;
+}
+
+div.bs {
+  	float: right;
+}
+
+div.fbc {
+	margin: 0px auto;
+}
+
+.br {
+	float: right;
+	
+}
+
+.bl {
+	float: left;
+	
+}
+
+.mTable {
+	text-align: center; 
+	border: 1px solid #dddddd;
+}
+
+.tHeader {
+	text-align: center;	
+	background-color: #dddddd; 
+}
+#tColor {
+	background-color: #dddddd; 	
+}

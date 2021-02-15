@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+body {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+.label {
+	float: left;
+	width: 120px;
+}
+
+.print_writer, .print_date, .print_title {
+	width: 650px;
+	border-style: solid;
+	border-width: 2px;
+	padding: 12px;
+	word-break: break-all;
+}
+
+.print_content {
+	width: 650px;
+	height: 350px;
+	border-style: solid;
+	border-width: 2px;
+	padding: 12px;
+	word-break: break-all;
+}
+
+.print_rwriter {
+	width: 200px;
+	height: 40px;	
+	overflow: auto;
+}
+
+.print_rcontent {
+	width: 450px;
+	height: 40px;	
+	overflow: auto;
+}
+
+.error {
+	color: red;
+	padding-left: 10px;
+}
+
+.insert_writer {
+	width: 250px;
+	height: 20px;
+}
+
+.insert_content {
+	width: 250px;
+	height: 70px;
+}
+
+div {
+	padding: 5px;
+}
+
+.print_content, .insert_content {
+	overflow: auto;
+}
+
+.insert_rwriter {
+	width: 250px;	
+	height: 50px;
+}
+.insert_rcontent {
+	width: 1020px;
+	height: 100px; 
+}
+
+
+.insert_rpasswd {
+	width: 250px;	
+	height: 50px;
+}
+
+div.bs {
+  float: right;
+}
+
+.rwiter {
+  font-weight: bolder;
+  font-size: x-large;	
+}
+
+.date {
+  font-size: x-small;	
+}
+
+.tableTh {
+	background-coor: #eeeeee; 
+	text-align: center;
+}
+
+.contentTable {
+	width: 1300px;
+	text-align: center; 
+	border: 1px solid #dddddd;
+}
+
+.rfTable {
+	width: 1300px;
+	border: 1px solid #dddddd;
+}
+
+.fileDiv {
+	text-align: center; 
+	border: 1px solid #dddddd;
+}
+
+.content {
+	 min-height: 200px; 
+	 text-align: left;"
+}
+
+.br {
+	float: right;
+}
+
+.bl {
+	align: left;
+}
+
+.tp {
+	width: 20%;
+}
+
+#tColor {
+	background-color: #dddddd; 	
+}
